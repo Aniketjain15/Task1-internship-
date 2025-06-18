@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthCare+ | Wellness & Services</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <!-- Font Awesome for icons -->
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-success fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/medical-doctor.png" alt="logo" width="30" height="30" class="me-2">
+        <span>HealthCare+</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#section1">Wellness</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Image -->
+  <section class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Your Health is Our Priority</h1>
+      <p class="lead">Compassionate care and expert wellness support.</p>
+    </div>
+  </section>
+
+  <!-- Section 1: Wellness -->
+  <section id="section1" class="py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+           <div class="col-md-6">
+          <img src="https://img.freepik.com/free-photo/fitness-woman-practicing-yoga-mat-park_1150-17903.jpg?w=1380&t=st=1683515040~exp=1683515640~hmac=38de8baf9e1ab203f1d93545f693b187bf2f3b17d0b3a1cb0ee2c1e8cc93da35" class="img-fluid rounded" alt="Wellness">
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-success">Wellness Tips</h2>
+          <p>
+            Stay active, eat healthy, and manage stress for long-term wellness. Practice daily mindfulness, exercise regularly, and ensure proper hydration and sleep.
+            <br>
+            Some important tips listed below :
+            <br>
+            <h5> 1. Start your day with a glass of water</h5> 
+Your body goes quite a few hours without hydration as you sleep. Drinking a full glass of water in the morning can aid digestion, flush out toxins, enhance skin health and give you an energy boost.<br>
+
+ <h5> 2. Begin with something positive</h5>
+Wake up and do something that inspires you like journaling, walking in nature, or other hobbies. Whether it’s productive or relaxing, beginning your morning on the right foot can cultivate a positive mindset and set the tone for the entire day.
+<br>
+<h5>3. Get plenty of sleep.</h5>
+Sleep is just as important as eating healthy and exercising. From improving your productivity and concentration to helping support your overall health, getting the recommended hours of sleep per night can have a major impact on your wellbeing. <br>
+   <h5> 4. Get some fresh air.</h5>
+Whether you get outside for some exercise or to read a book in the sunshine, you should take at least 30 minutes a day to get some vitamin D.
+
+<br>
+<h5>5. Get moving throughout the day.</h5>
+Try the stairs instead of the elevator, take short walks around your office or ride a bike instead of driving. Vigorous exercise is essential but moving throughout the day will keep you energized, as well as benefit your mind and body.
+
+<br>
+<h5>6. Track your steps.</h5>
+Tracking your steps will help you see how much you’ve actually moved throughout the day and may even encourage you to challenge yourself to reach a certain amount of steps every day.
+
+<br>
+<h5>7. Give your eyes a rest.</h5>
+Eyes become easily strained when you’re constantly focused on your computer screen. Reduce the risk of tired eyes by looking away from your computer for at least 20 seconds in 20-minute intervals.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Services -->
+  <section id="section2" class="py-5">
+    <div class="container">
+      <h2 class="text-success text-center mb-4">Our Medical Services</h2>
+      <div class="row text-center g-4">
+        <div class="col-md-3">
+          <i class="fas fa-user-md fa-2x text-success mb-2"></i>
+          <h5>Primary Care</h5>
+          <p>Expert consultations for general health and chronic conditions.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-syringe fa-2x text-success mb-2"></i>
+          <h5>Vaccinations</h5>
+          <p>Routine immunizations and travel vaccinations available.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-brain fa-2x text-success mb-2"></i>
+          <h5>Mental Health</h5>
+          <p>Confidential counseling and therapy with licensed professionals.</p>
+        </div>
+        <div class="col-md-3">
+          <i class="fas fa-apple-alt fa-2x text-success mb-2"></i>
+          <h5>Nutrition</h5>
+          <p>Customized diet plans and wellness coaching to support you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3">
+    &copy; 2025 HealthCare+. All rights reserved.
+  </footer>
+   <button id="scrollTopBtn" class="btn btn-success rounded-circle" style="position:fixed; bottom:30px; right:30px; display:none;">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+  <!-- Bootstrap JS -->
+  <script src="script.js"></script>
+</body>
+</html>
