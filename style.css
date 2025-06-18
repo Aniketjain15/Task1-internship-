@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/doctor-holding-stethoscope-closeup-hospital-background_53876-101125.jpg?w=1380&t=st=1683516480~exp=1683517080~hmac=48d6d634b9f7ee02ea97e3fdbe74b4cf259f5ab7fc8cf93a2d7652ea73a38db7');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
